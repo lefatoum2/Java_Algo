@@ -21,11 +21,12 @@ public class Main {
                 }
             }
         }
-
+// Affichage du tableau
         for (int i = 0; i < intArray.length; i++) {
             System.out.println(intArray[i]);
         }
     }
+// Echange
             public static void swap (int[] array, int i, int j ){
             if (i == j) {
                 return;
